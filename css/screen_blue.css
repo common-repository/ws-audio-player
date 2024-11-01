@@ -1,0 +1,45 @@
+/*
+Theme: Blue
+Autor: icyleaf
+Autor URL: http://icyleaf.com
+*/
+
+/*******Main********/
+.wsaudioplayer {
+position: relative;
+margin: 10px 0;
+width: 180px;
+height: 45px;
+}
+
+.wsaudioplayer a{
+color:#5A8A00;
+text-decoration: none;
+font-family: "Lucida Grande", sans-serif;
+font-weight:bold;
+font-size:90%;
+}
+
+/*******Flash Player********/
+.wsflashplayer{
+/* background-color: #BDDBE7;  */
+border: 4px solid #BDDBE7;
+}
+
+/*******Download********/
+.wsdownload {
+position: absolute;
+left: 176px;
+top: -9px;
+height: 17px;
+background: #BDDBE7 url(../tinymce3/music.gif) 3px 50% no-repeat;
+overflow: visible;
+padding: 3px 7px 2px 27px;
+border: 1px solid #BDDBE7;
+}
+
+/*******Music Desc********/
+.wsmusicdesc {
+font-size:14px;
+}
+

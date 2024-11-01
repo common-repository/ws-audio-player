@@ -1,0 +1,285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WS Audio Player\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-19 18:03+0800\n"
+"PO-Revision-Date: 2008-12-19 18:03+0800\n"
+"Last-Translator: icyleaf <icyleaf.cn@gmail.com>\n"
+"Language-Team: icyleaf <icyleaf.cn@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: E:\\Docments\\SVN\\ws-audio-player\\trunk\\\n"
+"X-Poedit-SearchPath-0: E:\\Docments\\SVN\\ws-audio-player\\trunk\n"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/wsaudioplayer.php:142
+msgid "请输入MP3地址[MP3 URI]"
+msgstr "Input MP3 URL"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/wsaudioplayer.php:145
+msgid "是否显示歌曲名,不显示请留空[Will you show Music Name?]"
+msgstr "If you want show Music title,please input music title or make it empty."
+
+#: E:\Docments\SVN\ws-audio-player\trunk/wsaudioplayer.php:148
+msgid "是否可以下载,不可以请留空,默认为可以下载[Can it download?]"
+msgstr "If you want people who could download it,please input \"download\" or make it empty."
+
+#: E:\Docments\SVN\ws-audio-player\trunk/wsaudioplayer.php:208
+msgid "升级警告！"
+msgstr "Update Warning!"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/wsaudioplayer.php:209
+#, php-format
+msgid "由WS Audio Player升级不当的原因，造成某些文件和文件夹丢失，请<a href=\"%1$s\">点击这里</a>重新下载最新版本并重新安装本插件。"
+msgstr "Something is broken during update plugin named \"ws audio player\", Please try <a href=\"%1$s\">Download</a> it and reinstall it."
+
+#: E:\Docments\SVN\ws-audio-player\trunk/wsaudioplayer.php:215
+msgid "版本警告！"
+msgstr "Version Warning!"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/wsaudioplayer.php:216
+msgid "你当前使用的Wordpress不是2.5版本，请更新Wordpress版本至2.5+以上在使用WS Audio Player插件。谢谢你的支持！"
+msgstr "Sorry, WordPress is not 2.5 or high version, WS Audio Player only used in 2.5 or high version."
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:15
+msgid "screen_white"
+msgstr ""
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:54
+msgid "CSS文件不能写入"
+msgstr "CSS file can't write"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:62
+msgid "使用说明"
+msgstr "Readme"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:63
+msgid "<b>提示</b>: 如果你的WordPrss版本在2.5+，则可以在富文本模式和代码模式下直接点击按钮插入！如果你想DIY，则可以参考下面的代码"
+msgstr "<b>Notice</b>：This version only use for WordPress 2.5+. and you can insert music with button between Vistual Mode and HTML mode. If you want code to insert music, you can refer the code below."
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:66
+msgid "代码格式"
+msgstr "CODE"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:67
+msgid "发布日志的时候，在代码状态输入：<b>[audio=音乐的地址</b><i>[,音乐名称,download]</i><b>]</b><br >其中音乐名称和download（是否可下载）为可选择选项。"
+msgstr "Create a post/page that contains a code snippet following the <b>[audio=Music URL</b><i>[, Music Title, download]</i><b>]</b>"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:70
+msgid "举例说明"
+msgstr "Sample"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:71
+msgid "插入一首名为“<b>爱转角</b>”，音乐的地址为<b>http://icyleaf.com/music.mp3</b>"
+msgstr "Injection a song name <b>1973</b>, and song URL is <b>http://icyleaf.com/1973.mp3</b>"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:74
+msgid "样式1"
+msgstr "Sample 1"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:75
+msgid "只显示播放器<br /><b>[audio=http://icyleaf.com/music.mp3]</b>"
+msgstr "Only show audio player<br /><b>[audio=http://icyleaf.com/1973.mp3]</b>"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:78
+msgid "样式2"
+msgstr "Sample 2"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:79
+msgid "只显示播放器以及音乐名称<br /><b>[audio=http://icyleaf.com/music.mp3,爱转角]</b>"
+msgstr "Only show Audio Player and Music Name.<br /><b>[audio=http://icyleaf.com/1973.mp3,1973]</b>"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:82
+msgid "样式3"
+msgstr "Sample 3"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:83
+msgid "只显示播放器以及下载按钮（注意，中间有两个逗号）<br /><b>[audio=http://icyleaf.com/music.mp3,,download]</b>"
+msgstr "CODE"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:86
+msgid "样式4"
+msgstr "Sample 4"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:87
+msgid "全部显示：播放器，音乐名称，下载按钮<br /><b>[audio=http://icyleaf.com/music.mp3,爱转角,download]</b>"
+msgstr "Show Audio Player, Music Title and can be download. <br /><b>[audio=http://icyleaf.com/1973.mp3,1973,download]</b>"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:90
+msgid "注意事项"
+msgstr "Note"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:91
+msgid "1.除了音乐名称外，其他符号均为英文半角状态。<br />2.如果只准备显示播放器以及下载按钮，不要忘记中间为两个逗号。"
+msgstr "If you want show only Audio Player and Download button,don't forget two comma between Audio Player and Download button"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:95
+msgid "外观设置"
+msgstr "Style Setting"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:103
+msgid "外观选择"
+msgstr "Choose"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:108
+msgid "White(默认)"
+msgstr "White(Default)"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:112
+msgid "Blue"
+msgstr ""
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:116
+msgid "白色经典"
+msgstr "Classic"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:120
+msgid "自定义CSS"
+msgstr "Custom CSS"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:135
+msgid "CSS文件不能写入！"
+msgstr "CSS file can't write"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:143
+msgid "设置提示"
+msgstr "Information"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:144
+msgid "1.外观除了Flash播放器本身以外（白色），均使用CSS控制其效果。<br />2.如果你要自定义CSS样式，请先screen.css文件的属性设置为777。"
+msgstr "If choose <b>Custom CSS</b>, setting screen.css files as  777."
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:148
+msgid "保存设置"
+msgstr "Save Options"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/options-wsaudioplayer.php:151
+msgid "捐赠本插件"
+msgstr "Donate to this plugin"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/tinymce3/window.php:35
+msgid "设置"
+msgstr "Settings"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/tinymce3/window.php:44
+msgid "音乐地址"
+msgstr "Music URL"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/tinymce3/window.php:48
+msgid "音乐标题"
+msgstr "Music Title"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/tinymce3/window.php:52
+msgid "下载功能"
+msgstr "Download "
+
+#: E:\Docments\SVN\ws-audio-player\trunk/tinymce3/window.php:53
+msgid "是否显示下载按钮"
+msgstr "Show download button."
+
+#: E:\Docments\SVN\ws-audio-player\trunk/tinymce3/window.php:58
+msgid "温馨提示：音乐文件只支持MP3格式。<br />如果你有更好的建议和想法，你可以 <a href=\"mailto:icyleaf.cn@gmail.com\">写信给我 </a>或者在 <a href=\"http://icyleaf.com\" target=\"_blank\">我的博客</a> 上面留言:)</p>"
+msgstr "Hint: Only support MP3 file.<br />If you have good suggest or some others things, you coult <a href=\"mailto:icyleaf.cn@gmail.com\">email to me</a> or leave a message on <a href=\"http://icyleaf.com\" target=\"_blank\">my blog</a>."
+
+#: E:\Docments\SVN\ws-audio-player\trunk/tinymce3/window.php:66
+msgid "取消"
+msgstr "Cancel"
+
+#: E:\Docments\SVN\ws-audio-player\trunk/tinymce3/window.php:70
+msgid "插入"
+msgstr "Insert"
+
+#~ msgid ""
+#~ "<b>提示</b>:这是一个针对WordPress2.5的应急版本，删掉了副编辑器下面的MP3按"
+#~ "钮。目前本人还在研究新的tinymce编辑器的插件开发方式，我会尽快发布一个完全"
+#~ "适应WP2.5的完全版，尽情期待！"
+#~ msgstr ""
+#~ "<b>Notice</b>:This is emergency version for WordPress2.5, only use in "
+#~ "CODE mode. you konw wordpress 2.5 change tingmce version to 3.0,then it "
+#~ "made many plugins is't to work,so i will to research the new release "
+#~ "version(2.5) for several days."
+#~ msgid "是否提供下载功能"
+#~ msgstr "Show download button."
+#~ msgid ""
+#~ "<b>提示</b>:在发布日志页面下添加了一个专门的按钮，通过按钮您就可以轻松的添"
+#~ "加在线MP3播放器咯！<br>富编辑模式是一个"
+#~ msgstr ""
+#~ "<b>Tip</b>:Add a button into Write Page with Rich Edit Mode and Code "
+#~ "Mode!!. <br>"
+#~ msgid "<b>音乐图标</b>的按钮，代码模式是一个名为<b>MP3</b>的按钮</span>"
+#~ msgstr " is Rich Edit Mode. Name “<b>MP3</b>” is Code Mode."
+
+#, fuzzy
+#~ msgid ""
+#~ "插入一首名为“<b>转角爱</b>”，音乐的地址为<b>http://www.icyleaf.cn/music."
+#~ "mp3</b>"
+#~ msgstr ""
+#~ "Injection a song name <b>1973</b>, and song URL is <b>http://www.icyleaf."
+#~ "cn/1973.mp3</b>"
+
+#, fuzzy
+#~ msgid ""
+#~ "只显示播放器以及音乐名称<br /><b>[audio=http://www.icyleaf.cn/music.mp3,转"
+#~ "角爱]</b>"
+#~ msgstr ""
+#~ "Only show Audio Player and Music Name.<br /><b>[audio=http://www.icyleaf."
+#~ "cn/1973.mp3,1973]</b>"
+
+#, fuzzy
+#~ msgid ""
+#~ "全部显示：播放器，音乐名称，下载按钮<br /><b>[audio=http://www.icyleaf.cn/"
+#~ "music.mp3,转角爱,download]</b>"
+#~ msgstr ""
+#~ "Show Audio Player, Music Title and can be download. <br /><b>"
+#~ "[audio=http://www.icyleaf.cn/1973.mp3,1973,download]</b>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<b>提示</b>:在发布日志的代码模式下添加了一个名为<b>MP3</b>的按钮，通过此按"
+#~ "钮我们就可以轻松的添加在线MP3播放器哦！"
+#~ msgstr ""
+#~ "<b>Tip</b>:Add a button into Write Page with Rich Edit Mode and Code "
+#~ "Mode!!. <br>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<br />作者使用<a href=\"http://www.icyleaf.cn/tag/ws-audioplayer/\" title="
+#~ "\"这个是什么插件?\">WS Audio Player</a>插入了一音乐，下载(<a href=\""
+#~ msgstr ""
+#~ "<br />Author use a plugins named <a href=\"http://www.icyleaf.cn/tag/ws-"
+#~ "audioplayer/\" title=\"What is this?\">WS Audio Player</a> insert a "
+#~ "music. Download(<a href=\""
+
+#, fuzzy
+#~ msgid ""
+#~ "<br />作者使用<a href=\"http://www.icyleaf.cn/tag/ws-audioplayer/\" title="
+#~ "\"这个是什么插件?\">WS Audio Player</a>插入了一音乐，(<a href=\""
+#~ msgstr ""
+#~ "<br />Author use a plugins named <a href=\"http://www.icyleaf.cn/tag/ws-"
+#~ "audioplayer/\" title=\"What is this?\">WS Audio Player</a> insert a "
+#~ "music. (<a href=\""
+#~ msgid "下载</a>)此音乐"
+#~ msgstr "Download</a>) this Music"
+
+#, fuzzy
+#~ msgid "请输入MP3地址"
+#~ msgstr "Input MP3 URL"
+
+#, fuzzy
+#~ msgid "是否显示歌曲名,不显示请留空"
+#~ msgstr ""
+#~ "If you want show Music title,please input music title or make it empty."
+
+#, fuzzy
+#~ msgid "是否可以下载,不可以请留空,默认为可以下载"
+#~ msgstr ""
+#~ "If you want people who could download it,please input \"download\" or "
+#~ "make it empty."
+#~ msgid "其他设置"
+#~ msgstr "Others Setting"
+#~ msgid "在编辑器添加WS Audio Player按钮"
+#~ msgstr "Put this Function on WritePost Pages."
+
